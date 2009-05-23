@@ -33,35 +33,34 @@
     padding: 5px 10px;
     text-decoration: none;
     letter-spacing: 1px;
-    background-color: black; /*Default menu color*/
+    background-color: #CFCFCF; /*Default menu color*/
     border-bottom: 1px solid white;
 }
-
 #menuline{
     clear: both;
     padding: 0;
     width: 100%;
     height: 5px;
     line-height: 5px;
-    background: #7F7F7F;
+    background: #AFAFAF;
 }
 
 .tabs li a:hover{
-    background-color: #0F365F; /*Menu hover bgcolor*/
+    background-color: #406A9A; /*Menu hover bgcolor*/
 }
 
 .tabs li.selected a{ /*currently selected tab*/
-    background-color: #7F7F7F; 
-    border-color: #7F7F7F; 
+    background-color: #AFAFAF;
+    border-color: #AFAFAF;
     font-weight:bold;
 }
 
 #tabBody {
     margin-bottom: 1em;
     padding:1px 20px;
-    border-bottom: 1px solid #7F7F7F;
-    border-left: 1px solid #7F7F7F;
-    border-right: 1px solid #7F7F7F;
+    border-bottom: 1px solid #AFAFAF;
+    border-left: 1px solid #AFAFAF;
+    border-right: 1px solid #AFAFAF;
 }
 
 #tabBody ul li{

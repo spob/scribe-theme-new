@@ -15,7 +15,7 @@
 
 h3.ideaTitle
 {
-    text-transform:capitalize; 
+    text-transform:capitalize;
     padding-right:175px;
     border: none;
 }
@@ -32,7 +32,7 @@ table.ideaTitle
     vertical-align:top;
     font-size: 1.50em; /*18px */
     line-height: 1.83em; /* 22px */
-    text-transform:capitalize; 
+    text-transform:capitalize;
     border: none;
 }
 
@@ -61,11 +61,11 @@ div.auto_complete ul li {
 }
 
 div.auto_complete ul li.selected { 
-    background-color: #ffb; 
+    background-color: #ffb;
 }
 
 div.auto_complete ul strong.highlight { 
-    color: #800; 
+    color: #800;
     margin:0;
     padding:0;
 }
@@ -83,10 +83,6 @@ div.auto_complete ul strong.highlight {
 {
     margin:0 0 10px 0;
     font-size:0.88em;
-}
-
-.countbox {
-    background-color:#566275;
 }
 
 #countcontainer {
@@ -129,11 +125,11 @@ div.auto_complete ul strong.highlight {
 }
 
 .red64 {
-    background-image: url("../images/icons/64x64/bluesquareOff.png" );
+    background-image: url("../images/icons/64x64/greensquareOff.png" );
 }
 
 .red64:hover {
-    background-image: url("../images/icons/64x64/bluesquareOn.png" );
+    background-image: url("../images/icons/64x64/greensquareOn.png" );
     cursor: pointer;
 }
 

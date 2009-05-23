@@ -26,58 +26,56 @@
     width: 144px;
     text-decoration: none;
     color: white;
-    background-color: #003B58;
-    border-left: 7px solid #5681AE;
+    background-color: #86A52E;
+    border-left: 7px solid #9CB556;
     border-top: solid 1px #ccc;
 }
 
 * html #filtermenu li a {
     /*IE only */
-    width: 187px; 
+    width: 187px;
     width: 142px;
     font-size: 1em;
 }
 
 #filtermenu li a:hover, #filtermenu li .selected {
-    border-left-color: #FFD203;
+    border-left-color: #86A52E;
     color: white;
-    background-color: #5681AE;
+    background-color: #9CB556;
 }
 
 #filtermenu li .selected {
     color: #000;
     font-weight: bold;
-    border-left-color: #173E69;
-    background-color: #CFCFCF;
+    border-left-color: #607F00;
+    background-color: #DFDFDF;
 }
 
 #filtermenu div.menutitle {
     color: white;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #406A9A;
     padding: 1px 0;
     padding-left: 5px;
-    background-color: black;
+    background-color: #406A9A;
     font-family: 'Trebuchet MS' , 'Lucida Grande' , Arial, sans-serif;
-    background: transparent url(../images/menus/topMenuItem.gif) center center repeat-x;
+    background: transparent url(../images/headers/sidebarBgTile.gif) center center repeat-x;
     font-size: 1.17em;
     line-height:1.50em;
 }
 
 #data {
     padding: 10px;
-    background-color: #CFCFCF;
+    background-color: #DFDFDF;
     margin: 0 0 0 160px;
 }
 
 #filterContainer
 {
-    border: solid 1px #fff;
+    border: solid 1px transparent;
     margin-top:15px;
     margin-bottom:0px;
     padding:0;
-    background-color: #CFCFCF;
-    background-image:url(../images/menus/filterBgTile.gif);
-    background-repeat:repeat-y;
+    background-color: transparent;
 }
 
 #filterContainer table.cssform

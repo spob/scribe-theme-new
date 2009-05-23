@@ -1,5 +1,5 @@
 .digg_pagination {
-  background: white;
+  background: transparent;
   padding-top: 1em;
   padding-bottom: 1.5em;
   text-align: center;
@@ -25,7 +25,7 @@
       color: #7F7F7F;
       border-color: #003; }
   .digg_pagination .page_info {
-    background: #7F7F7F;
+    background: #AFAFAF;
     color: white;
     padding: .4em .6em;
     width: 22em;
